@@ -1,0 +1,4 @@
+after mkdocs build:
+use rsync to move from site to root dir
+commit to git
+push
