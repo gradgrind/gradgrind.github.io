@@ -1,0 +1,12 @@
+pandoc --template=template.tex -V lang=de -V pagestyle=empty -f markdown -t latex -o out.pdf Aufgaben-001.md
+
+Also works:
+pandoc --template=template.tex -V lang=de -V pagestyle=empty -f markdown --pdf-engine=xelatex -o out.pdf Aufgaben-001.md
+
+... but it breaks one of the comparisons.
+
+pandoc --template=template.tex -V pagestyle=empty -f markdown --pdf-engine=xelatex -o out.pdf Aufgaben-001.md
+
+... (without the 'lang', doesn't split the comparison)
+
+lualatex doesn't work with lang=de (but does without it).
