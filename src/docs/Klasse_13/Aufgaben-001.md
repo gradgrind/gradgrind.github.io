@@ -5,7 +5,7 @@
     a. Untersuchen Sie das Schaubild $K$ von $f$ auf Symmetrie, Schnittpunkte mit der *x*-Achse, Extrem- und Wendepunkte.
     Zeichnen Sie $K$ in ein Koordinatensystem im Intervall $-2 < x \leq 4{,}5$.
 
-    b. Bestimmen Sie die Gleichung der Tangente an $K$, die durch den Ursprung geht.
+    b. Bestimmen Sie die Gleichungen der Tangenten an $K$, die durch den Ursprung gehen.
 
     c. Ein Dreieck wird durch die Eckpunkte $O(0 \mid 0)$, $P(u \mid 0)$ und $Q(u \mid f(u))$, $0 < u < 4$, definiert. Bestimmen Sie $u$ so, dass der Flächeninhalt maximiert wird. Wie groß ist dieser Flächeninhalt?
 

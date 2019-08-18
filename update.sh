@@ -1,13 +1,17 @@
 #!/bin/bash
 
-( cd src; mkdocs build )
+###### This uses a locally installed mkdocs (in a virtual environment):
+### python3 -m venv mkdocs
+### mkdocs/bin/pip install mkdocs-material
 
-rsync -avcn src/site/ . --exclude=.* --exclude=src --exclude=sitemap.* --exclude=README.md --exclude=update.sh --delete
+( cd src; ../mkdocs/bin/mkdocs build )
+
+rsync -avcn src/site/ . --exclude=.* --exclude=src --exclude=mkdocs --exclude=sitemap.* --exclude=README.md --exclude=update.sh --delete
 
 read -p 'Continue?: [y for yes] ' ok
 [[ "$ok" != y* ]] && exit 1
 
-rsync -avc src/site/ . --exclude=.* --exclude=src --exclude=sitemap.* --exclude=README.md --exclude=update.sh --delete
+rsync -avc src/site/ . --exclude=.* --exclude=src --exclude=mkdocs --exclude=sitemap.* --exclude=README.md --exclude=update.sh --delete
 
 git add -A && git commit -m "Update pages"
 
