@@ -3,10 +3,15 @@ pandoc --template=template.tex -V lang=de -V pagestyle=empty -f markdown -t late
 Also works:
 pandoc --template=template.tex -V lang=de -V pagestyle=empty -f markdown --pdf-engine=xelatex -o out.pdf Aufgaben-001.md
 
-... but it breaks one of the comparisons.
+... but it line-breaks one of the comparisons.
 
 pandoc --template=template.tex -V pagestyle=empty -f markdown --pdf-engine=xelatex -o out.pdf Aufgaben-001.md
 
-... (without the 'lang', doesn't split the comparison)
+... (without the 'lang' it doesn't split the comparison)
 
 lualatex doesn't work with lang=de (but does without it).
+
+
+A conversion to odt/docx seems to work quite well, too:
+pandoc -f markdown -t odt -o out.odt Aufgaben-001.md
+pandoc -f markdown -t docx -o out.docx Aufgaben-001.md
