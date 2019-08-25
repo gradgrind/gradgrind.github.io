@@ -23,8 +23,8 @@ theme:
 #  font:
 #    text: 'Roboto'
 #    code: 'Roboto Mono'
-#  feature:
-#    tabs: true
+  feature:
+    tabs: true
 
 #extra:
 #  manifest: 'manifest.webmanifest'
