@@ -4,7 +4,7 @@ Für viele Funktionen gibt es Ableitungsregeln (die findet man auch in einer For
 
 
 ## Die Grundregeln
-Diese sind die Regeln die schon von der Einführung in die Analysis bekannt sind.
+Diese sind die Regeln, die schon von der Einführung in die Analysis bekannt sind.
 
 ### Potenzregel
 
@@ -12,7 +12,9 @@ $$f(x) = x^r \quad \to\quad f'(x) = r·x^{r-1}\,;\: r \in \mathbb{R}, r \neq 0$$
 
 Beispiel: $f(x) = x^5 \quad \to\quad f'(x) = 5x^4$
 
-Es gibt auch einige besondere Funktionen, für die wir die Ableitungsfunktion kennen sollen, vor allem:
+### Besondere Funktionen
+
+Für diese Funktionen sollten die wir die Ableitungsfunktion kennen:
 
 | $f(x)$   | $f'(x)$    |
 | -------- | ---------- |
@@ -76,14 +78,13 @@ $$f(x) = \frac{u(x)}{v(x)} \quad \to\quad f'(x) = \frac{u'(x)·v(x) - u(x)·v'(x
 
 ## Die Kettenregel, ein Erläuterungsversuch
 
-Diese Regel wird in den Formelsammlungen auf einer Art (siehe oben) dargestellt, die meines Erachtens nicht unbedingt auf Anhieb verständlich ist. Beschreibungen sprechen von äußeren und inneren
-Funktionen, deren Zusammensetzung nicht immer offensichtlich ist.
+Diese Regel wird in den Formelsammlungen auf einer Art (siehe oben) dargestellt, die meines Erachtens nicht unbedingt auf Anhieb verständlich ist. Beschreibungen sprechen von äußeren und inneren Funktionen, die allerdings nicht immer offensichtlich sind.
 
-Im Grunde genommen wird die Kettenregel angewendet, wenn die abzuleitende Funktion eine *Verkettung* zweier Funktionen, die wir jede für sich ableiten können, z.B. zuerst $u(x)=-0{,}1x^2$ und dann $v(x)=e^x$. Das bedeutet, wir setzen unseren $x$-Wert in die erste (die *innere*) Funktion und das Ergebnis dann in die zweite (die *äußere*). Die zusammengesetzte Funktion wäre dann
+Im Grunde genommen wird die Kettenregel angewendet, wenn die abzuleitende Funktion eine *Verkettung* zweier Funktionen ist, die unabhängig voneinander abgeleitet werden können, z.B. zuerst $u(x)=-0{,}1x^2$ und dann $v(x)=e^x$. Das bedeutet, wir setzen unseren $x$-Wert in die erste (die *innere*) Funktion und das Ergebnis dann in die zweite (die *äußere*). Die zusammengesetzte Funktion wäre dann
 
 $$f(x) = e^{-0{,}1x^2}$$
 
-Die Ableitung von $f$ bilden wir dann anhand der Ableitungen von $u$ und $v$ und der Kettenregel. Da der Eingabewert für die Funktion $v$ nicht $x$ sondern das Ergebnis von $u(x)$ ist, verwende ich für die Funktion $v$ die Variable $u$:
+Die Ableitung von $f$ bilden wir anhand der Ableitungen von $u$ und $v$ und der Kettenregel. Da der Eingabewert für die Funktion $v$ nicht $x$ sondern das Ergebnis von $u(x)$ ist, verwende ich für die Funktion $v$ die Variable $u$:
 
 \begin{align}
 u(x)&=-0{,}1x^2 \quad \to\quad u'(x)=-0{,}2x \nonumber\\
