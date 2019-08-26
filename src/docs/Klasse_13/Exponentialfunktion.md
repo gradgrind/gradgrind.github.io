@@ -88,16 +88,20 @@ I \quad & a · b^2 = 8{,}5 \nonumber\\
 II \quad & a · b^7 = 3{,}4 \nonumber
 \end{align}
 
-Eine Möglichkeit dieses Gleichungssystem zu lösen ist, Gleichung $II$ durch Gleichung $I$ zu teilen:
+Gleichung $I$ nach $a$ umstellen:
+
+$$a = \frac{8{,}5}{b^2}$$
+
+Diesen Term in Gleichung $II$ einsetzen:
 
 \begin{align}
-\frac{a · b^7}{a · b^2} &= \frac{3{,}4}{8{,}5} \nonumber\\
+\frac{8{,}5}{b^2} · b^7 &= {3{,}4} \qquad | :8{,}5 \nonumber\\
 b^5 &= \frac{3{,}4}{8{,}5} \nonumber\\
 b   &= \sqrt[5]{\frac{3{,}4}{8{,}5}} \nonumber\\
     &\approx 0{,}8326 \nonumber
 \end{align}
 
-Mit Gleichung $I$ kann dann $a$ berechnet werden:
+Mit der umgestellten Gleichung $I$ können wir jetzt $a$ berechnen:
 
 \begin{align}
 a &\approx \frac{8{,}5}{0{,}8326^2} \nonumber\\
@@ -113,10 +117,14 @@ I \quad & a · e^{2k} = 8{,}5 \nonumber\\
 II \quad & a · e^{7k} = 3{,}4 \nonumber
 \end{align}
 
-Mit dem gleichen Ansatz wie oben bekommen wir
+Gleichung $I$ nach $a$ umstellen:
+
+$$a = \frac{8{,}5}{e^{2k}}$$
+
+Diesen Term in Gleichung $II$ einsetzen:
 
 \begin{align}
-\frac{a · e^{7k}}{a · e^{2k}} &= \frac{3{,}4}{8{,}5} \nonumber\\
+\frac{8{,}5}{e^{2k}} · e^{7k} &= 3{,}4 \qquad | :8{,}5 \nonumber\\
 e^{5k} &= \frac{3{,}4}{8{,}5} \nonumber\\
 5k   &= \ln {\frac{3{,}4}{8{,}5}} \nonumber\\
 k    &\approx -0{,}1833 \nonumber
@@ -128,7 +136,6 @@ Und für $a$:
 a & \approx \frac{8{,}5}{e^{-0{,}1833 · 2}} \nonumber\\
   & \approx 12{,}26 \nonumber
 \end{align}
-
 
 $$⇒\quad f(x) = 12{,}26 · e^{-0{,}1833 · x}$$
 
