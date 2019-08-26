@@ -51,7 +51,7 @@ Bei exponentiellem Wachstum bleibt die *relative* Änderungsrate konstant. Das h
  
   - Ein Kapital von 10 000€ wird zehn Jahre lang mit gleich bleibendem Zinssatz (3%) angelegt.
   
-  - Ein radioaktives Isotop hat ein Halbwertszeit von 40 Jahren.
+  - Ein radioaktives Isotop hat eine Halbwertszeit von 40 Jahren.
  
 Diese zwei Fälle sind Beispiele für exponentielles Wachstum bzw. exponentiellen Zerfall.
 
