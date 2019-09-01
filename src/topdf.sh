@@ -19,7 +19,7 @@ fname=$(basename "$fp")
 
 #pandoc -V lang=de -V papersize="A4" -V fontsize="12pt" -V geometry="margin=2cm" -V pagestyle=empty -f markdown --pdf-engine=xelatex -o "$this/pdf/$fp.pdf" "$this/docs/$fp.md"
 
-~/bin/pandoc -V lang=de -V papersize=A4 -V fontsize=12pt -V geometry:"left=2cm,right=2cm,top=2.4cm,bottom=1.4cm" -H "$this/misc/header.tex" -f markdown --pdf-engine=xelatex -o "$this/pdf/$fp.pdf" "$this/docs/$fp.md"
+~/bin/pandoc -V lang=de -V papersize=A4 -V fontsize=12pt -V geometry:"left=2cm,right=2cm,top=2.4cm,bottom=1.4cm" -H "$this/misc/header.tex" -f markdown --pdf-engine=xelatex --filter="$this/misc/filter.py" -o "$this/pdf/$fp.pdf" "$this/docs/$fp.md"
 
 
 ##### A problem with Context is that it can't deal with some maths constructs! This is a pity because
