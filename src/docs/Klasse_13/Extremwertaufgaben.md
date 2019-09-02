@@ -12,7 +12,9 @@ Um einen Maximalwert zu bestimmen, geht man folgenderweise vor:
 
     - Die Randwerte bestimmen. Das sind die Funktionswerte an den Enden des Definitionsbereiches der Funktion. Falls einer dieser Randwerte größer als das größte lokale Maximum ist, gilt dieser Randwert als das globale Maximum.
 
-In Prüfungsaufgaben sind die Randwerte sehr oft null. Man sollte diese trotzdem angeben – die Randwertuntersuchung gehört zum vollständigen Lösungsansatz!
+Falls ein Minimalwert zu bestimmen ist, wird man natürlich den globalen Tiefpunkt bestimmen.
+
+In Testaufgaben sind die Randwerte sehr oft null. Man sollte diese trotzdem angeben – die Randwertuntersuchung gehört zum vollständigen Lösungsansatz!
 
 ### Beispielgraphen
 
@@ -24,7 +26,7 @@ Unter Umständen kann einer der Randwerte einen größeren Wert als alle lokalen
 
 ![Globaler Hochpunkt – signifikanter Randwert](../img/Extremwertaufgaben/Extremwert2.svg)
 
-Es ist auch möglich (aber vielleicht unwahrscheinlich), dass es in dem Definitionsbereich gar keine lokalen Hochpunkte gibt.
+Es ist auch möglich (aber vielleicht unwahrscheinlich), dass es im Definitionsbereich gar keine lokalen Hochpunkte gibt.
 
 ![Globaler Hochpunkt – kein lokaler Hochpunkt](../img/Extremwertaufgaben/Extremwert3.svg)
 
@@ -34,7 +36,7 @@ Normalerweise wird in einer Extremwertaufgabe ein beschränkter Bereich für den
 
 ## Nebenbedingungen
 
-Je nach Aufgabenstellung kann der zu maximierende Term mehr als einen Parameter enthalten. In diesem Fall müssen auch sogenannte Nebenbedingungen als Gleichungen formuliert werden. Diese Nebenbedingungen entstehen aus der Aufgabenstellung (siehe die Beispielaufgaben unten). Indem diese Nebenbedingungen in den zu maximierenden Term eingesetzt werden, wird die Anzahl der Parameter auf eins reduziert.
+Je nach Aufgabenstellung und Bearbeitungsansatz kann der zu maximierende Term mehr als einen Parameter enthalten. In diesem Fall müssen auch sogenannte Nebenbedingungen als Gleichungen formuliert werden. Diese Nebenbedingungen entstehen aus der Aufgabenstellung und stellen Beziehungen zwischen den Parametern dar (siehe die Beispielaufgaben unten). Indem diese Nebenbedingungen in den zu maximierenden Term eingesetzt werden, wird die Anzahl der Parameter auf eins reduziert.
 
 ## Beispielaufgaben
 
@@ -64,26 +66,26 @@ Das größte Rechteck wird mit $x = 110 m$ und $r \approx 35{,}01 m$ erreicht. D
 
 ### Schachtel
 
-Aus einem rechteckigen Stück Karton mit Länge $30cm$ und Breite $21cm$ wird eine offene Schachtel hergestellt, indem an den Ecken Quadrate mit Seitenlänge $x$ ausgeschnitten werden; die überstehenden Teile werden dann hochgebogen (siehe Abbildung).
+Aus einem rechteckigen Stück Karton mit Länge $30cm$ und Breite $20cm$ wird eine offene Schachtel hergestellt, indem an den Ecken Quadrate mit Seitenlänge $x$ ausgeschnitten werden; die überstehenden Teile werden dann hochgebogen (siehe Abbildung).
 
 Für welchen Wert von $x$ wird das Volumen maximal?
 
 ![Schachtel](../img/Extremwertaufgaben/Schachtel.svg)
 
-Die Länge des Schachtels wird durch $l=30-2x$ gegeben, die Breite durch $b=21-2x$. Das sind die Nebenbedingungen.
+Die Länge des Schachtels wird durch $l=30-2x$ gegeben, die Breite durch $b=20-2x$. Das sind die Nebenbedingungen.
 
 Das Schachtelvolumen V berechnet
 sich wie folgt:
 
-$$V = l · b · x = (30-2x) · (21-2x) · x$$
+$$V = l · b · x = (30-2x) · (20-2x) · x$$
 
-Der sinnvolle Bereich für $x$ ist begrenzt durch das kleinste Eckquadrat ($x>0$) und das größte ($x<\frac{21}{2}$), das abgeschnitten werden kann). In beiden Grenzfällen ist das Volumen $0$.
+Der sinnvolle Bereich für $x$ ist begrenzt durch das kleinste Eckquadrat ($x>0$) und das größte ($x<10$), das abgeschnitten werden kann). In beiden Grenzfällen ist das Volumen $0$.
 
-Der Hochpunkt der Funktion $V$ mit $V(x) = x · (30-2x) · (21-2x)$ wird gesucht für $0 < x < 10{,}5$:
+Der Hochpunkt der Funktion $V$ mit $V(x) = x · (30-2x) · (20-2x)$ wird gesucht für $0 < x < 10$:
 
-$$H(4,0559 ... \mid 1144,1 ...)$$
+$$H(3{,}92375 \mid 1056{,}3 ...)$$
 
-Das Volumen wird für $x \approx 4,06$ maximal.
+Das Volumen wird für $x \approx 3{,}92 cm$ maximal.
 
 ### Ein innermathematisches Beispiel
 
@@ -105,4 +107,4 @@ Randwertuntersuchung: $f(0) = 0$; $f(8) = 0$.
 Für $u = 4$ wird der maximale Flächeninhalt von $128$ *VE* erreicht.
 
 - - -
-*letzte Änderung*: 01.09.2019
+*letzte Änderung*: 02.09.2019
