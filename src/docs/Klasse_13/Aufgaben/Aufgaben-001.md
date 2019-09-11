@@ -9,9 +9,13 @@
 
     c. Ein Dreieck wird durch die Eckpunkte $O(0 \mid 0)$, $P(u \mid 0)$ und $Q(u \mid f(u))$, $0 < u < 4$, definiert. Bestimmen Sie $u$ so, dass der Flächeninhalt maximiert wird. Wie groß ist dieser Flächeninhalt?
 
-2. Der Graph einer Funktion 3. Grades hat einen Tiefpunkt in $T(1 \mid 0)$ und geht durch die Punkte $P(2 \mid 2)$ und $Q(-1 \mid 1)$. Bestimmen Sie die Funktionsgleichung.
+2. Bestimmen Sie die Funktionsgleichungen:
 
-3. Der Graph einer Funktion 4. Grades ist *y*-achsensymmetrisch und hat in $W(2 \mid 1)$ einen Wendepunkt. Die Normale zur Kurve im Wendepunkt geht durch den Ursprung. Bestimmen Sie die Funktionsgleichung.
+    a. Der Graph einer Funktion 3. Grades hat einen Tiefpunkt in $T(1 \mid 0)$ und geht durch die Punkte $P(2 \mid 2)$ und $Q(-1 \mid 1)$.
+
+    b. Der Graph einer Funktion 5. Grades ist punktsymmetrisch zum Ursprung und hat einen Sattelpunkt in $S(5 \mid -200)$.
+
+3. [ * ] Der Graph einer Funktion 4. Grades ist *y*-achsensymmetrisch und hat in $W(2 \mid 1)$ einen Wendepunkt. Die Normale zur Kurve im Wendepunkt geht durch den Ursprung. Bestimmen Sie die Funktionsgleichung.
 
 4. Durch $f_t(x)=\frac{t}{8}\left( x^3-12x^2+36x \right)$ ist für $t>0$ eine Funktionenschar gegeben.
 
