@@ -19,7 +19,7 @@ Für einen bestimmten $b$-Wert hat der Graph die Steigung $1$ an der Stelle $x=0
 
 ![Graph der Funktion $e^x$ mit Tangente](../img/e-funktionen/e-hoch-x.svg)
 
-Diese besondere Basis heißt „$e$“, mit Wert $e = 2,71828...$
+Diese besondere Basis heißt „$e$“, mit Wert $e = 2{,}71828...$
 
 Eine sehr praktische Eigenschaft dieser besonderen Basis ist, dass die Ableitung der Funktion $f(x)=e^x$ einfach durch $f'(x)=e^x$ gegeben ist! Diese ist die einzige Funktion mit dieser Eigneschaft (bis auf Verschiebungen).
 
