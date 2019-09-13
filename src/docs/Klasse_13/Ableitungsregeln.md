@@ -120,3 +120,6 @@ Der Exponent (die innere Funktion) bleibt bei der Ableitung unverändert, aber d
  - Äußere Funktion $v(u) = \cos (u)$
  - Innere Funktion $u(x) = 2x-3$
  - $f'(x) = -\sin (u) · 2 \qquad = -2\sin (2x-3)$
+
+- - -
+*letzte Änderung*: 13.09.2019

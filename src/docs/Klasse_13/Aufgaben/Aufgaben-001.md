@@ -28,3 +28,6 @@
     d. Berechnen Sie die Größe der Fläche, die von dieser Wendetangente, der *y*-Achse und der Kurve $K_1$ eingeschlossen wird.
 
     e. Wie groß muss $t$ sein, damit der Inhalt der eingeschlossenen Fläche zwischen der Kurve $K_t$ und der *x*-Achse 81 FE beträgt?
+
+- - -
+*letzte Änderung*: 13.09.2019

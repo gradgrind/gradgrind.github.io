@@ -167,5 +167,5 @@ Da der Wachstumsfaktor in allen Fällen fast gleich ist, können wir annehmen, d
 
 $$B(30) = 8,0 · e^{0,262 · 30} \approx 21\,000 $$
 
-
-
+- - -
+*letzte Änderung*: 13.09.2019
