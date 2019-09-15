@@ -1,7 +1,12 @@
 #!/usr/bin/python3
 
-# A pandoc filter to avoid extra spaces before "displayed" maths in pdf output.
-# It achieves this by replacing a paragraph break by a "SoftBreak".
+# A pandoc filter.
+
+# (a) Convert the html comment <!--\newpage--> to \newpage. This allows
+# a page-break to be specified for pdf output, while being invisible in html.
+
+# (b) Avoid extra spaces before "displayed" maths in pdf output.
+# This is achieved by replacing a paragraph break by a "SoftBreak".
 
 import sys, json
 
@@ -12,15 +17,33 @@ data = json.load (sys.stdin)
 #    json.dump (data, fout, ensure_ascii=False, indent=2)
 ###################
 
+# Build new list of blocks:
 newblocks = []
+# Use a block buffer to capture 'Para' blocks before tex blocks:
 block0 = None
 for block in data ['blocks']:
+    # Test for <!--\newpage-->
+    if block ['t'] == 'RawBlock':
+        if block0 != None:
+            newblocks.append (block0)
+            block0 = None
+        try:
+            if (block ['c'] [0] == 'html'
+                    and block ['c'] [1] == '<!--\\newpage-->'):
+                block ['c'] = ['tex', '\\newpage']
+                newblocks.append (block)
+        except:
+            pass
+        continue
+    
+    # Test for 'Para' ...
     if block0 == None:
         if block ['t'] == 'Para':
             block0 = block
         else:
             newblocks.append (block)
         continue
+    # ... with maths
     if block ['t'] == 'Para':
         content = block ['c']
         # <content> is in this case always a list
