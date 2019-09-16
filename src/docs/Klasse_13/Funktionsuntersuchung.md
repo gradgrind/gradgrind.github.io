@@ -44,6 +44,9 @@ Der Ansatz hängt von der Form des Funktionsterms ab:
 
     - $f(x) = 2x^2 – 1$
 
+### Besondere Ergebnisse
+
+Eine *doppelte* Nullstelle ist ein Extrempunkt auf der *x*-Achse. Eine *dreifache* Nullstelle ist ein Sattelpunkt auf der *x*-Achse.
 
 ## • Extremstellen, Extrempunkte
 
@@ -74,6 +77,10 @@ Eine Funktion *n*. Grades hat **maximal** *n-1* Extrempunkte.
 ## • Wendestellen, Wendepunkte
 
 Eine Funktion *n*. Grades hat **maximal** *n-2* Wendepunkte. Das bedeutet, nur bei Funktionen 3. (oder höheren) Grades kann es einen Wendepunkt geben. Bei Funktionen 3. Grades gibt es (immer) genau einen Wendepunkt.
+
+Eine Wendestelle ist eine Extremstelle der Ableitung (lokales Maximum oder Minimum der Steigung). Diese Tatsache führt zu einem manchmal vorteilhaften Bestimmungsansatz mit dem GTR: Die Ableitungsfunktion kann graphisch dargestellt werden, die Extrem*stellen* dieses Graphen sind dann die Wende*stellen* der Ausgangsfunktion.
+
+Insbesondere wenn es nicht einfach ist, die Ableitungen zu bestimmen, ist der obige Ansatz mit GTR nützlich. Sonst kann man den „normalen“, algebraischen Ansatz anwenden:
 
 1. Notwendige Bedingung, $f ''(x) = 0$ (Krümmung = 0):
 
@@ -167,4 +174,4 @@ und für $x \rightarrow -\infty$ folgt $f(x) \rightarrow +\infty$.
  - Bei anderen Funktionsarten muss man die besonderen Eigenschaften der Bestandteile berücksichtigen.
 
 - - -
-*letzte Änderung*: 13.09.2019
+*letzte Änderung*: 16.09.2019

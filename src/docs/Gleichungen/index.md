@@ -1,4 +1,4 @@
-# Gleichungen
+# Gleichungen: Überblick
 
 Gleichungen erscheinen in fast allen Bereichen der Mathematik, oft als wesentliche Grundlage.
 

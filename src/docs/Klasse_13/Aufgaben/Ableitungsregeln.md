@@ -214,16 +214,6 @@
 
     d. $f'(x) = 3 \cos(3x-1)$
 
-10. Bestimmen Sie die erste Ableitung:
-
-    a. $f(x) = (x^2 + 1)(3x - 1)$
-
-    b. $f(x) = (x^2 + 1)^3$
-
-    c. $f(x) = x · \cos(x)$
-
-    d. $f(x) = 2 \sin(3x-1)$
-
 11. Funktionenschar.
 
     a. $x_1 = x_2 = 0$ ; $x_3=3k$
