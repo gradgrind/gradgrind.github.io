@@ -89,9 +89,9 @@ Insbesondere wenn es nicht einfach ist, die Ableitungen zu bestimmen, ist der ob
     b. $f''(x) = 0$ lösen (siehe Nullstellen, hier werden die Nullstellen der 2. Ableitung bestimmt).
 
     c. Mögliche Wendestellen angeben (Ergebnisse aus b.).
-    
+
 2. Hinreichende Bedingung, Vorzeichenwechsel der Krümmung [f''(x)]
-           
+
 	$f''(x)$ für Stellen links und rechts von jeder möglichen Wendestelle bestimmen:
 
 	- (+ → –) oder (– → +) $\Rightarrow$ Wendestelle
@@ -136,7 +136,15 @@ Insbesondere wenn es nicht einfach ist, die Ableitungen zu bestimmen, ist der ob
 
  -  Auch die Achsen müssen normalerweise nicht besonders genau sein. Eine aussagekräftige Beschriftung wird allerdings auch bei einer Skizze erwartet.
 
-## • Tangente (an einer gegebenen Stelle, x ist also bekannt)
+## • Tangente
+
+Die Tangente in einem Punkt an einen Graphen ist eine Gerade. Sie hat in diesem Punkt den gleichen *y*-Wert und die gleiche Steigung wie der Funktionsgraph. Wenn $f$ die Funktion ist, $t$ die Tangente und $x_T$ die Stelle:
+
+ - $f(x_T) = t(x_T) = m · x_T + b$
+
+ - $f'(x_T) = t'(x_T) = m$
+
+### Bestimmung der Gleichung der Tangente an einer gegebenen Stelle
 
 1. Steigung mit der 1. Ableitung bestimmen, $m = f'(x)$.
 
@@ -174,4 +182,4 @@ und für $x \rightarrow -\infty$ folgt $f(x) \rightarrow +\infty$.
  - Bei anderen Funktionsarten muss man die besonderen Eigenschaften der Bestandteile berücksichtigen.
 
 - - -
-*letzte Änderung*: 16.09.2019
+*letzte Änderung*: 17.09.2019
